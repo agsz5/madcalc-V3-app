@@ -1,0 +1,17 @@
+// @use '../styles.scss' as *;
+@use '../../../../../styles.scss' as *;
+@use '@angular/material' as mat;
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    // background: mat.get-color-from-palette($madcalc-V3-app-theme,primary);
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+  }

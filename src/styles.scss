@@ -40,18 +40,64 @@ $madcalc-V3-app-theme: mat.define-theme((
 @include mat.color-variants-backwards-compatibility($madcalc-V3-app-theme);
 /* You can add global styles to this file, and also import other style files */
 
+/*VARIABLES*/
+$gutter-value: 24px;
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
   &.grey {
     background-color: lighten(lightgrey, 12%);
   }
 }
-.hjl-content-panel {
-  background-color: white !important;
-  border-radius: 6px;
-  padding: 24px;
-  border: 1px solid lighten(lightgrey, 10%);
+.angular-logo {
+  max-width: 9.2rem;
 }
 
+/*PANELS*/
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  gap: $gutter-value; ;
+}
+
+.hjl-content-panel {
+  background-color: white;
+  border-radius: 6px;
+  padding: $gutter-value;
+  border: 1px solid lighten(lightgrey, 10%);
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/*MATERIAL INPUTS*/
+.mat-mdc-text-field-wrapper {
+  background-color: transparent !important;
+  padding: 0 !important;
+  &:hover {
+    background-color: transparent !important;
+    .mat-mdc-form-field-focus-overlay {
+      opacity: 0 !important;
+    }
+  }
+  td {
+    padding-right: 8px;
+  }
+}
 // Expose the theme variables - Suggested by Github Copilot, wrong
   // $madcalc-V3-app-theme: $madcalc-V3-app-theme;

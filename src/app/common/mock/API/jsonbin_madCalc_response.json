@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "createdAt": "2024-07-26T14:42:49.005Z",
+    "id": "66a3b5e9e41b4d34e4176a93",
+    "private": true
+  },
+  "record": {
+    "creationDate": "2024-04-05T06:29:25.174368",
+    "creditCaseId": "ec3d2353-3493-41a6-9034-3eafa9196bba",
+    "customerId": "993937541",
+    "decisionJson": {
+      "creditCaseId": "ec3d2353-3493-41a6-9034-3eafa9196bba",
+      "creditCaseBasicInfo": {
+        "creditCaseStatus": "READY_FOR_DECISION",
+        "creditCaseVersion": "1.0",
+        "countryCode": "NO",
+        "createdBy": "tt03140",
+        "createdDate": "2024-04-05T05:35:20.810518",
+        "updatedBy": "tt03140",
+        "updatedDate": "2024-04-05T06:29:17.178306"
+      },
+      "creditAssessmentApplication": {
+        "referenceNumber": "02-2024-039093",
+        "aml": {
+          "groupStructureIncomplete": "0",
+          "niwlFlag": "false",
+          "pepFlag": "false",
+          "pepQuestionFlag": "false",
+          "sanctionFlag": "true",
+          "ceo": {
+            "name": "HANSEN SVEIN OLAV",
+            "dateOfBirth": "1985-05-14",
+            "placeOfBirth": ""
+          },
+          "beneficialOwner": [
+            {
+              "name": "HANSEN SVEIN OLAV",
+              "dateOfBirth": "1985-05-14"
+            },
+            {
+              "name": "JAFARGHOLI SHAHNAZ",
+              "dateOfBirth": "1964-09-26"
+            }
+          ],
+          "boardMember": [
+            {
+              "name": "HANSEN SVEIN OLAV",
+              "dateOfBirth": "1985-05-14"
+            },
+            {
+              "name": "SÆTRE SVEIN STEFFEN",
+              "dateOfBirth": "1958-11-06"
+            },
+            {
+              "name": "JAFARGHOLI SHAHNAZ",
+              "dateOfBirth": "1964-09-26"
+            },
+            {
+              "name": "DIAZ MARIA GINA TANILON",
+              "dateOfBirth": "1994-02-05"
+            }
+          ]
+        },
+        "assessmentDetail": {
+          "nbrOfApplicants": "1",
+          "nbrOfGuarantors": "0",
+          "alfaAlertFlag": "false",
+          "recommedationFromBankFlag": "false",
+          "statementFromBankFlag": "false",
+          "orgApplDetailsForThresholdCase": {
+            "recommendedDecision": "Control",
+            "finalDecision": "",
+            "applicationDate": "2024-04-05",
+            "acceptReason": "",
+            "decisionMakerId": "",
+            "downPayment": "175000",
+            "firstBigRental": "0",
+            "leaseBaseAmount": "189000",
+            "leaseObjectValue": "450000",
+            "loanAmount": "189000",
+            "loanObjectValue": "450000",
+            "nbrOfMonthlyInstalments": "36",
+            "objectAgeMonths": "0",
+            "objectCode": "",
+            "objectIsNew": "",
+            "objectLicensePlateNbr": "",
+            "productVariant": "",
+            "residualValue": "0",
+            "applicants": [
+              {
+                "amlRiskClassification": "",
+                "employmentStatus": "",
+                "grossMonthlyIncomeTotal": "0",
+                "id": "993937541",
+                "pepStatus": "",
+                "totalHomeDebtBeforeAppl": "0",
+                "totalOtherDebtBeforeAppl": "0"
+              },
+              {
+                "amlRiskClassification": "",
+                "employmentStatus": "",
+                "grossMonthlyIncomeTotal": "0",
+                "id": "",
+                "pepStatus": "",
+                "totalHomeDebtBeforeAppl": "0",
+                "totalOtherDebtBeforeAppl": "0"
+              }
+            ],
+            "guarantor1": {
+              "amlRiskClassification": "",
+              "employmentStatus": "",
+              "grossMonthlyIncomeTotal": "0",
+              "id": "",
+              "pepStatus": "",
+              "totalHomeDebtBeforeAppl": "0",
+              "totalOtherDebtBeforeAppl": "0"
+            },
+            "guarantor2": {
+              "amlRiskClassification": "",
+              "employmentStatus": "",
+              "grossMonthlyIncomeTotal": "0",
+              "id": "",
+              "pepStatus": "",
+              "totalHomeDebtBeforeAppl": "0",
+              "totalOtherDebtBeforeAppl": "0"
+            }
+          }
+        }
+      }
+    },
+    "frontend": "NCVSExternal",
+    "nordeaUnit": "NFN",
+    "referenceNumber": "02-2024-039093"
+  }
+}
